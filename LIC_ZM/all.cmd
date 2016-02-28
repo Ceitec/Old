@@ -1,0 +1,9 @@
+@echo Start
+@call go
+@echo 2
+@call go2
+@echo 3
+@call go3
+@echo 4
+@call prog_ZM
+@echo Finish

@@ -1,0 +1,1 @@
+if exist LIC_ZM_ext.hex avrdude -P COM4 -c STK500v2 -p m8 -U flash:w:LIC_ZM_ext.hex

@@ -1,0 +1,1 @@
+avrdude -P COM4 -c STK500v2 -p m644p -U eeprom:r:LIC_ZM_read.bin:r

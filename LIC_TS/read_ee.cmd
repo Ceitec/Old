@@ -1,0 +1,1 @@
+avrdude -P COM4 -c STK500v2 -p m32 -U eeprom:r:LIC_TS_read.bin:r

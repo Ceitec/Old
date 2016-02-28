@@ -1,0 +1,1 @@
+avrdude -P COM4 -c STK500v2 -p m32 -U flash:w:Master_I2C.hex:i

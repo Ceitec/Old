@@ -1,0 +1,8 @@
+
+/*
+ * Perform UART startup initialization.
+ */
+void	uart_init();
+void    uart_set_rate(unsigned long baud_rate);
+void	uart_interrupt_rx(unsigned char enable);
+void	uart_interrupt_tx(unsigned char enable);

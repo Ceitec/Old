@@ -1,0 +1,1 @@
+avrdude -P COM4 -c STK500v2 -p m8 -U eeprom:r:LIC_OV_read.bin:r
